@@ -8,7 +8,7 @@ describe '#meal_choice' do
   end
   
   it 'should default to meat for the protein' do
-    expect(meal_choice("broccoli", "macaroni")).to eq("A plate of tofu with broccoli and macaroni.")
+    expect(meal_choice("broccoli", "macaroni")).to eq("A plate of meat with broccoli and macaroni.")
   end
 
   it 'should allow you to set a protein' do
